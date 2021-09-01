@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234631906173",
+    "firebase_url": "https://yes-u-du-default-rtdb.firebaseio.com",
+    "project_id": "yes-u-du",
+    "storage_bucket": "yes-u-du.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234631906173:android:72cd5de8109a603d2c8214",
+        "android_client_info": {
+          "package_name": "com.yes_u_du.zuyger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234631906173-e7s4u2nr6qhv9rjj8klnq0q3m1116vg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_8OzX2GW8AfOYoGgNLVOSeHAiedOvaxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234631906173-e7s4u2nr6qhv9rjj8klnq0q3m1116vg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

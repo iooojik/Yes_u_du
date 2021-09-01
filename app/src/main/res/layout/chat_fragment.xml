@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorAccent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarFr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/circle_image_chat"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_below="@+id/textView"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/unnamed" />
+
+                    <ImageView
+                        android:id="@+id/block_image_chat"
+                        android:layout_width="16.65dp"
+                        android:layout_height="16.65dp"
+                        android:layout_gravity="top|end"
+                        android:src="@drawable/icon_block_user"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/verified_image_chat"
+                        android:layout_width="11.65dp"
+                        android:layout_height="11.65dp"
+                        android:layout_gravity="bottom|end"
+                        android:layout_marginRight="1.76dp"
+                        android:layout_marginBottom="2.525dp"
+                        android:src="@drawable/verified"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/username_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:textColor="@color/chat_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/online_text_in_chat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@color/chat_text"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center">
+
+                    <ImageButton
+                        android:id="@+id/complain_button"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="end|center"
+                        android:layout_marginTop="4dp"
+                        android:background="?attr/colorAccent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/admin_icon" />
+
+                    <ImageView
+                        android:id="@+id/notification_admin"
+                        android:layout_width="6dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="end|center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="7.5dp"
+                        android:layout_marginRight="7.5dp"
+                        android:src="@drawable/icon_notification_admin"
+                        android:visibility="invisible" />
+                </FrameLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </FrameLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:src="@drawable/baseline_send_black_24dp"
+            android:tint="@android:color/white"
+            app:fabSize="mini" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/send_image_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="9dp"
+            android:background="?attr/colorAccent"
+            android:clickable="true"
+            android:tint="@android:color/white"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/outline_image_24" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="2dp"
+            android:layout_toStartOf="@id/fab"
+            android:layout_toLeftOf="@id/fab"
+            android:layout_toEndOf="@+id/send_image_button"
+            android:layout_toRightOf="@+id/send_image_button" />
+
+        <!--<ListView
+            android:id="@+id/list_of_messages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/text_input"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="17dp"
+            android:divider="@android:color/transparent"
+            />!-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_of_messages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/input"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="17dp"
+            android:divider="@android:color/transparent"
+            android:overScrollMode="never"
+            android:transcriptMode="alwaysScroll"
+            app:stackFromEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

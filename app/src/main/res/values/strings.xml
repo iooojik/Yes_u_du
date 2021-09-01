@@ -1,0 +1,765 @@
+<resources>
+    <string name="sex_input">Indicate your gender</string>
+    <string name="app_name" translatable="false">Yes u Du</string>
+    <string name="email_forgot_txt">Enter your email</string>
+    <string name="email_hint">Enter an Email</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="email_reg_hint" translatable="false">Email</string>
+    <string name="pass_hint">Password</string>
+    <string name="pass_reg_hint">Password</string>
+    <string name="name_hint">Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="country_hint">Country</string>
+    <string name="city_hint">City</string>
+    <string name="reg_button_text">Register</string>
+    <string name="login_button_text">Log in</string>
+    <string name="reject_reg">Fill in all required registration fields</string>
+    <string name="reject_reg_name">Enter your name</string>
+    <string name="reject_reg_surname">Enter your surname</string>
+    <string name="reject_reg_email">Enter your email</string>
+    <string name="reject_reg_password">Enter your password</string>
+    <string name="is_successful">Registration is successful</string>
+    <string name="is_not_successful">Registration is not successful</string>
+    <string name="failed_login">False email or password</string>
+    <string name="logout_menu">Logout</string>
+    <string name="country">Country:</string>
+    <string name="country_label">Country</string>
+    <string name="city">City:</string>
+    <string name="region">Region:</string>
+    <string name="sex">Sex:</string>
+    <string name="age">Age:</string>
+    <string name="region_reg_hint">Region</string>
+    <string name="age_reg_hint">Age</string>
+    <string name="sex_reg_hint">Sex</string>
+    <string name="myAccount">My account</string>
+    <string name="chat_list">Chats</string>
+    <string name="failed_update_photo">Failed update photo</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="upload_progress">Upload in progress</string>
+    <string name="find_menu_item_title">find</string>
+    <string name="label_sex">Sex</string>
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+    <string name="label_activity">Online</string>
+    <string name="label_online">online</string>
+    <string name="label_offline">offline</string>
+    <string name="label_additional">Additional filters</string>
+    <string name="label_only_with_photo">with photo</string>
+    <string name="label_name">Name</string>
+    <string name="name_edit_text_hint">Enter a name</string>
+    <string name="search_pos_button_text">search</string>
+    <string name="enter_email_and_password">Enter email and password for login</string>
+    <string name="password_length_short">Password is short</string>
+    <string name="edit_account">Edit</string>
+    <string name="make_admin">Make admin</string>
+    <string name="uploading">uploading</string>
+    <string name="ok_pos_button_text" translatable="false">OK</string>
+    <string name="label_age">Age</string>
+    <string name="city_edit_text_hint">City</string>
+    <string name="back_menu">Back</string>
+    <string name="seen_text">seen</string>
+    <string name="not_seen_text">no seen</string>
+    <string name="remove_account_menu_item">remove account</string>
+    <string name="choose_image_from">Choose image from</string>
+    <string name="sending_image">Sending image…</string>
+    <string name="image_attach">Send photo</string>
+    <string name="delete_chat">Delete chat</string>
+    <string name="blocklist">BlockList</string>
+    <string name="saved_image">Photo saved</string>
+    <string name="dialog_title_edit">Edit account</string>
+    <string name="dialog_title_delete">Delete chat</string>
+    <string name="delete_image1">Delete photo 1</string>
+    <string name="delete_users">User deleted this account</string>
+    <string name="block_chat">Block userModel</string>
+    <string name="have_not_photo">You have not photo</string>
+    <string name="photo_delete">Photo deleted</string>
+    <string name="unblock_msg_text">Unblock userModel?</string>
+    <string name="unblock">Unblock</string>
+    <string name="panel_admin">Administrator panel</string>
+    <string name="you_are_not_verificated">You are not verificated</string>
+    <string name="block_account">Block account</string>
+    <string name="unblock_account">Unblock account(time)</string>
+    <string name="photo_cant_delete">can\'t delete photo</string>
+    <string-array name="sex_for_spinner">
+        <item>  </item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="age_for_spinner">
+        <item>under 18</item>
+        <item>18–30</item>
+        <item>30–45</item>
+        <item>45–60</item>
+        <item>60+</item>
+        <item>none</item>
+    </string-array>
+    <string name="blocked_chat">This chat was blocked</string>
+    <string name="blocked_by_admin">You have been blocked by Administration</string>
+    <string name="reset_password">Reset password</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="password_reset">Password was reset</string>
+    <string name="password_not_reset">Password was not reset</string>
+    <string name="incorrect_old_password">Incorrect old password</string>
+    <string name="saved_password">Save</string>
+    <string name="about_hint">Tell about yourself</string>
+    <string name="set_photo">Set photo</string>
+    <string name="about">About:</string>
+    <string name="verify_text">To complete registration, follow the link sent to your email address</string>
+    <string name="required_photos">Download photos, it is require for registration</string>
+    <string name="reject_update">You entered empty important strings.Update rejected</string>
+    <string name="gallery_text">Gallery</string>
+    <string name="admin">Administration</string>
+    <string name="admin_key" translatable="false">admin</string>
+    <string name="complain_menu">Complain to admin</string>
+    <string name="look_all">Look all photos</string>
+    <string name="you_photo">Before uploading photos, please read the requirements.</string>
+    <string name="add_image">Add image</string>
+    <string name="you_cant_add_4_photo">you cannot add more than 4 photos</string>
+    <string name="you_cannot_delete_photo">you cannot have less than 2 photos in the gallery</string>
+    <string name="reset_image">Reset image</string>
+    <string name="delete_image2">Delete photo 2</string>
+    <string name="delete_image3">Delete photo 3</string>
+    <string name="delete_image4">Delete photo 4</string>
+    <string name="rule_and_policy">Privacy Policy</string>
+    <string name="text_rule_policy" translatable="false">
+        PRIVACY POLICY\n
+This Privacy Policy of personal data (hereinafter - the Privacy Policy) applies to all information that the Yes u Du Mobile Application (Then Mobile App) can receive about the User while using the Mobile App.\n
+1. DEFINITION OF TERMS\n
+1.1 The following terms are used in this Privacy Policy:\n
+1.1.1. Mobile App Administration (hereinafter referred to as The Yes u Du Administration) - employees authorized to manage the App, acting on behalf of who organize and (or) process personal data, and also determine the purposes of processing personal data, the composition of personal data to be processed, actions (operations) performed with personal data.\n
+1.1.2. "Personal data" - any information relating directly or indirectly to a specific or identifiable individual (subject of personal data).\n
+1.1.3. "Processing of personal data" - any action (operation) or a set of actions (operations) performed using automation tools or without using such tools with personal data, including collection, recording, systematization, accumulation, storage, clarification (update, change), extraction, use, transfer (distribution, provision, access), depersonalization, blocking, deletion, destruction of personal data.\n
+1.1.4. "Confidentiality of personal data" is a mandatory requirement for the Operator or other person who has gained access to personal data to prevent their dissemination without the consent of the subject of personal data or other legal grounds.\n
+1.1.5. User of the Yes u Du Mobile App (hereinafter referred to as the User) - a person who has access to the App via the Internet and uses the Mobile App.\n
+\n
+2. GENERAL PROVISIONS\n
+2.1. The use of the Mobile App by the User means acceptance of this Privacy Policy and the terms of processing of the User`s personal data. 2.2. In case of disagreement with the terms of the Privacy Policy, the User must stop using the Mobile App.\n
+2.3. This Privacy Policy applies only to the Yes u Du Mobile App. The App does not control and is not responsible for third-party sites to which the User can click on the links sent by the Users to each other.\n
+2.4. The Administration does not verify the accuracy of the personal data provided by the Yes u Du Mobile App User.\n
+\n
+3. SUBJECT OF THE PRIVACY POLICY\n
+ \n
+3.1. This Privacy Policy establishes the obligations of the Yes u Du Administration to not disclose and ensure the protection of the confidentiality of personal data that the User provides upon the request of the Yes u Du Administration during registration.\n
+3.2. Personal data allowed for processing under this Privacy Policy is provided by the User by filling out the registration form in the App in the "Registration" section and in the "Profile" section and includes the following information:\n
+3.2.1. name, surname (at the request of the User);\n
+3.2.2. day, month, year of birth;\n
+3.2.3. email address;\n
+3.3.4. sex
+3.2.5. User`s place of residence (country, city)\n
+3.2.6. additionally provided by the Users at the request of the Yes u Du Administration in order to fulfill the obligations of the Yes u Du Administration to the Users arising from the contract for the provision of the Services of the Mobile App. The App Administration has the right, in particular, to request from the User a photo of the passport, or other document containing the name, surname,sex, year, date, month of birth, the User`s photo (except series and numbers of documents), as well as other additional information that, at the discretion of the Administration, will be necessary and sufficient for identification of such a User and will allow to exclude abuse and violations of the rights of third parties by misleading them.To verify the User, only the above data is required, the rest of the information in the documents must be painted over before sending.\n
+3.3. Any other personal information not specified above is subject to reliable storage and non-proliferation, with the exception of cases provided for in paragraphs. 5.2. and 5.3. of this Privacy Policy.\n
+\n
+4. PURPOSE OF COLLECTING PERSONAL USER INFORMATION\n
+4.1. The User`s personal data may be used by the Yes u Du Administration for the following purposes:\n
+ 4.1.1. Identification of the User registered in the Mobile App.\n
+ 4.1.2. Providing the User with access to personalized resources of the Mobile App.\n
+4.1.3. Establishing feedback with the User, including sending notifications, requests regarding the use of the Yes u Du Mobile App, provision of services, processing messages or complaints from the User.\n
+4.1.4. Determining the location of the User to ensure security, prevent fraud.\n
+4.1.5. Confirmation of the accuracy and completeness of personal data provided by the User in order to prevent deception and misleading other userModels.\ n
+4.1.6. Providing the User with effective customer and technical support in case of problems associated with the use of the Yes u Du Mobile App.\n
+4.1.7. Implementation of advertising activities with the consent of the User.\n
+\n
+5. METHODS AND TERMS OF PROCESSING PERSONAL INFORMATION\n
+5.1. The processing of the User`s personal data is carried out without any time limit, in any legal way, including in personal data information systems using automation tools or without using such tools.\n
+5.2. The User`s personal data can be transferred to the authorized state authorities of the country in which the userModel lives at the time of the incident, only on the grounds and in the manner established by the legislation of this country.\n
+5.3. In case of loss or disclosure of personal data, the Yes u Du Administration informs the User about the loss or disclosure of personal data.\n
+5.4.The Yes u Du Administration takes the necessary organizational and technical measures to protect the User`s personal information from unauthorized or accidental access, destruction, modification, blocking, copying, distribution, as well as from other illegal actions of third parties.\n
+5.5. The Yes u Du Administration, together with the User, takes all necessary measures to prevent losses or other negative consequences caused by the loss or disclosure of the User`s personal data.\n
+\n
+6. OBLIGATIONS OF THE PARTIES\n
+6.1. The userModel is obliged:\n
+6.1.1. Provide information about personal data necessary to use the Yes u Du Mobile App.\n
+6.1.2. Update, supplement the provided information about personal data in case of changes in this information.\n
+\n
+6.2. The Mobile App Administration is obliged to: 6.2.1. Use the information received solely for the purposes specified in clause 4 of this Privacy Policy.\n
+6.2.2. Ensure that confidential information is kept secret, not disclosed without the prior written permission of the User, and also not to sell, exchange, publish, or disclose in other possible ways the transferred personal data of the User, with the exception of clauses cl. 5.2. and 5.3. of this Privacy Policy.\n
+6.2.3. Take precautions to protect the confidentiality of the User`s personal data in accordance with the procedure usually used to protect this kind of information in the existing business.\n
+6.2.4. Block personal data related to the relevant User from the moment the User or his legal representative or the authorized body for the protection of the rights of personal data subjects apply or request for the verification period, in case of revealing inaccurate personal data or illegal actions.\n
+6.2.5.The administration independently detects violations committed by userModels (provided for by the rules for using the application), and also takes measures for complaints from userModels about violations, but initially cannot prevent their commission.\n
+
+\n
+7. RESPONSIBILITY OF THE PARTIES\n
+7.1. The Yes u Du Administration, which has not fulfilled its obligations, is liable for losses incurred by the User in connection with the illegal use of personal data, in accordance with the legislation of the country in which the userModel is registered, with the exception of cases provided for in cl. 5.2., 5.3. and 7.2. of this Privacy Policy.\n
+7.2. In case of loss or disclosure of Confidential Information, the Mobile App Administration is not responsible if this confidential information:\n
+7.2.1. Became public domain before its loss or disclosure.\n
+7.2.2. Was received from a third party prior to its receipt by the Yes u Du Administration.\n
+7.2.3. Was disclosed with the consent of the User.\n
+\n
+8. DISPUTE RESOLUTION\n
+8.1. Before going to court with a claim for disputes arising from the relationship between the User of the Yes u Du Mobile App and the Mobile App Administration, it is mandatory to submit a claim (a written proposal for a voluntary settlement of the dispute).\n
+8.2. The recipient of the claim within 30 calendar days from the date of receipt of the claim shall notify the applicant of the claim in writing about the results of the consideration of the claim.\n
+8.3. If an agreement is not reached, the dispute will be referred to a judicial authority in accordance with the current legislation of the country in which the User lives at the time of the incident.\n
+8.4. The current legislation of the country in which the User lives at the time of the incident applies to this Privacy Policy and the relationship between the User and the Yes u Du Administration.\n
+\n
+9. ADDITIONAL TERMS\n
+9.1. The Yes u Du Administration has the right to make changes to this Privacy Policy without the consent of the User.\n
+9.2. The new Privacy Policy comes into force from the moment it is posted in the Mobile App, unless otherwise provided by the new edition of the Privacy Policy.\n
+9.3. All suggestions or questions about this Privacy Policy should be reported to the of the Yes u Du Mobile App Administration.\n
+   </string>
+    <string name="rules_resources_text" translatable="false">
+    Resource Use Agreement (Resource Rules)\n
+\n
+Part I. Universal provisions\n
+The Resource offers services for the exchange of information between userModels of the Mobile Application (then Mobile App) Yes u Du, which are the subject of this Agreement on the use of the Mobile App (Resource). In this regard, you need to carefully read the terms of this Agreement, which are considered by the Resource "Yes u Du" as a public offer in accordance with the Civil Code of the country in which the userModel is registered (hereinafter referred to as the "Public Offer")\n
+The terms of use of the Yes u Du Resource are governed by this Agreement.\n
+ Part I “Universal Provisions” applies to the relations established by Part II and Part III, unless otherwise provided for in Part II or Part III.\n
+The provisions provided for in Part II shall apply to the relationship established by Part III, unless otherwise provided for in Part III.\n
+Please note that Part II and Part III contain different conditions for using the Mobile App (Services), depending on which type of interaction on the Mobile App you choose.\n
+
+ 1. Terms used in the Agreement\n
+Mobile App, Resource - an Internet resource, including the Yes u Du Mobile App, which provides access to the functionality of the Yes u Du Mobile App. The resource and the Mobile App are the intellectual property of an individual.\n
+
+Administration - an individual, owner of intellectual property and a resource, as well as persons duly authorized by the owner of the Resource to manage this Resource, within the framework of the use of the Mobile App and the Internet interface, by end userModels.\n
+
+User - any individual, 18 years of age and older, who is not married, who has passed the registration procedure and uses the Resource, in cases expressly provided for in this Agreement. The term User in this Agreement denotes both Verified and Unconfirmed userModels.\n
+
+Login - the email address of the User chosen by him during registration and used by him in the process of using the Resource. It is forbidden to register and use several Logins by the same User.\n
+
+Mobile App is a hardware and software complex based on Android.\n
+Password is a symbolic combination chosen by the User independently and providing, together with the Login, his identification when using the Resource.\n
+
+Unverified User - a User who has passed the registration procedure.\n
+Verified User - A User who has passed the verification procedure in accordance with Section 4\n
+
+Resource Services - services provided by the Resource to Verified Users for the exchange of information of any nature between them in the Mobile App.\n
+
+  Acceptance of the rules of the resource (Public Offer) - full and unconditional acceptance by the User of the Agreement of Use by downloading and installing the Yes u Du Mobile App and taking actions to use the Yes u Du Mobile App.\n
+
+Chat is a service, part of the Mobile App, that allows to Users to exchange private messages.\n
+At the time the User makes the Acceptance of the service rules (public offer), the User and the Resource are considered to have entered into this Agreement.\n
+  Part II. Agreement on the use of the Mobile App / Resource Yes u Du by individuals\n
+(hereinafter referred to as this Part II - "Part II of the Agreement")\n
+
+ 1.General Provisions\n
+ This Part II of the Agreement governs the procedure for using the Mobile App, as well as the relationship arising when Users use the Mobile App for the purpose of publishing and exchanging information. The resource has the right at any time to refuse any User to use the Mobile App and Services in case of violation of the Agreement. The Resource provides Users with a personal non-exclusive and non-transferable right to use the Internet interface and the Mobile App in accordance with this Agreement, provided that the User, nor any other persons, with the assistance of the User, will take actions:\n
+ to copy or modify the software of the Resource; for the creation of programs derived from the Mobile App software; on penetration into software in order to obtain program codes; on the sale, assignment, lease, transfer to third parties in any other form of rights in relation to the material of the Mobile App; to modify the Mobile App, including in order to obtain unauthorized access to it; and other actions similar to those listed above and violating the rights of the Resource and third parties.\n
+ The User is responsible for the observance of the rights (material and intangible) of third parties to information transferred (provided) to the Administration or to third parties when using the Mobile App and the Internet interface. The Users independently assess the legality of their use of the Mobile App, including from the point of view of the legislation of the country of which they are residents.\n
+The User, performing any actions on the use of the Mobile App and the Internet interface (viewing the Mobile App, Registration, Verification, sending messages and other specified in the Mobile App and Internet interface, and others), expresses his full and unconditional consent to the terms of the Agreement on the use of the Mobile App Yes u Du posted in the Mobile App\n
+The Yes u Du Mobile App located in the Mobile App\n
+The agreement on the use of the Yes u Du Mobile App concluded in the form of a public offer is stipulated by the Civil Code of the country in which the userModel lives at the time of the incident and does not require a bilateral signature and is indeed in electronic form.\n
+
+ 2.User registration\n
+A person wishing to become a User must complete the Registration procedure in the appropriate section of the Mobile App. When registering, the User is assigned a chosen pair of Login (email) plus Password, which is used later by the User when working with the Mobile App. The User can go through the Registration procedure only once\n
+
+  When registering in the Mobile App, the User is obliged to provide the Resource Administration with the necessary reliable and up-to-date information to form the User Profile, including the Login (email address) and Password for access to the Mobile App, unique for each User, and the Username.\n
+
+ The User independently chooses the Password for himself, however, the Resource strongly recommends using Passwords that are at least 6 (six) characters long and include both lowercase and uppercase letters, as well as numbers.\n
+ By filling out the Profile, the User hereby confirms that he makes the information contained in his profile publicly available, that is, potentially available to all other Users.\n
+ In order to avoid misleading other userModels, the Yes u Du Administration recommends that you provide real data: Name, Age, Sex, Place of residence (Country, City).\n
+ Such data as: Name, Age, Sex, Place of residence, the User specifies once, during registration. In the future, only the Yes u Du Administration  has the right to change the userModel data, based on the userModel`s data received after passing the Verification.\n
+ Since the Yes u Du Mobile App is designed for a serious relationship with the aim of starting a family, registration of married people is prohibited. In case of revealing false userModel data: Name, Age, Gender, Place of residence (Country, City), identifying other people`s photos in the profile, as well as detecting a married User, his account will be blocked by the Administration.\n
+ Unlocking will be done only after full confirmation of the Use`s data required to use the App: Photos, Gender, Age, Place of residence (Country, City). Confirmation of userModel data occurs by going through the Verification procedure (part 4)\n
+ The userModel is responsible for the accuracy, relevance, completeness and compliance with the legislation of the country in which the userModel lives at the time of the incident, the information provided during Registration and its purity from third-party claims. The User is solely responsible for keeping the Password secret from third parties.\n
+The Company does not bear any responsibility in case of violation of the User`s rights by third parties who have received unauthorized access to the pair of Username plus Password. When registering, the User agrees with this Agreement and assumes the rights and obligations specified therein related to the use and operation of the Mobile App. After successful registration of the User in the Mobile App, the Resource assumes the rights and obligations to the User specified in this Agreement.\n
+
+ 3.Rules for posting photos in the profile.\n
+Profile photos should be clear and close-up.\n
+ It is forbidden to post the following photos in the profile:\n
+ - other people`s photos\n
+ - taken from afar\n
+ - substandard (with a violation of sharpness, lighting, etc.);\n
+ - already existing in the profile or very similar to them;\n
+ - on which the userModel is not visible or not at all;\n
+ - on which the face is poorly visible, or only part of the face is visible;\n
+ - flowers, animals, insects, landscapes, buildings, structures, etc.;\n
+ - erotic and pornographic content;\n
+ - group;\n
+ - baby photos;\n
+ - irrelevant (made 2 years ago or more);\n
+ - in sunglasses;\n
+ - tilted to the right, left, upside down, in profile;\n
+ - parts of the userModel`s body (arms, legs, lips, back, etc.);\n
+ - containing scenes of violence;\n
+ - containing advertisements;\n
+ - non-original (frames, inscriptions, hearts, flowers, etc.);\n
+ - black and white;\n
+\n
+Photos that do not meet the above requirements will be deleted by the Administration, and the account will be blocked until valid photos are uploaded. For re-uploading previously rejected photos, your account will be blocked for a period of 3 days.\n
+\n
+4.User verification. \n
+Verification is the confirmation by the userModel of the data posted in the profile.\n
+
+ The following userModel data are subject to confirmation: name, surname, date of birth, gender, country, city of residence and at least two photographs of the userModel that differ from each other, photographs and other data are checked by the Administration for reliability and for the use of various graphic editors by the User.\n
+
+ This data is confirmed by sending a photo of the userModel along with a passport or other document confirming the identity of the userModel. To verify the User, only the above data is required, the rest of the information in the documents must be painted over before sending. The userModel`s place of residence is confirmed by sending data about his location (country, city). The userModel who has passed the verification procedure is attached a check mark indicating the status of the Verified User.\n
+
+The status of the Confirmed User is provided by the Administration at its own discretion after receiving the full above information from the User.The userModel has the right to independently request a verification procedure to confirm his profile data.\n
+ The Administration has the right to refuse the User to Verify without explaining the reasons for the refusal, regardless of the costs and efforts incurred by the User when going through the Verification procedure.
+After successfully passing the verification procedure, the Administration itself indicates the real data of the User, referring to the verification performed, thereby being the guarantor of their authenticity. Confirmed and Unconfirmed userModels have the same rights and obligations in using the Yes u Du Mobile Application. The advantage of a Verified User is that he inspires confidence in the Users, since his personal data is real.\n
+ The Confirmed User status can be removed from the User at any time at the discretion of the Administration in connection with the emergence of new information about the User.\n
+ 5.Violations and blocking\n
+Violations that may entail temporary or permanent blocking of the User`s account:\n
+• The userModel used profanity, criticism, incited conflict situations, called for a violation of the rules of the Resource or the Legislation of the country in which the userModel is registered, used offensive language to address other Users;\n
+• The User has received more than three complaints from other Users of the Resource, while the Administration checks all complaints about the legality and violations of the rules of the Resource, and does not restrict access to the Resource without a valid reason;\n
+• The userModel specified the personal data of another individual, without his knowledge and consent;\n
+• The User has published in his profile links to third-party resources using materials that are contrary to or prohibited by the legislation of the country in which the User is registered;\n
+• The userModel has published materials that are contrary to or prohibited by the laws of the country in which the userModel is registered.\n
+• When exchanging information with other Users, the User called for illegal or illegal actions, and also published materials of an explicit or pornographic nature (photos of uncovered genitals, or scenes of sexual intercourse between people, people and animals);\n
+• The User has violated the requirements for photos posted in the Profile. The photographs must show the User himself (close-up face) without strangers, objects or animals and other requirements specified in paragraph 4.\n
+• The userModel has violated the rules of communication with the Administration. The Administration is called upon to monitor compliance with the Agreement on the use of the Resource by all Users of this Resource, as well as to give recommendations to Users on the correct filling of the Profile. To discuss controversial issues with the Administration, Users need to use only direct contacts: personal chat, e-mail. It is forbidden to publicly argue with the Administration and discuss its actions. You can complain about the actions or inaction of the Administration by sending an appropriate message to the Administration of the Mobile App.\n
+
+ 6.Rules for posting information\n
+It is prohibited to post information, the purpose or subject of which is:\n
+• granting and receiving loans, replenishing accounts in payment systems, making money transfers, accepting payments in favor of payment systems: Alert Pay (alertpay.com), c-gold (c-gold.com), e-bullion (e-bullion.com ), e-gold (e-gold.com), Liberty Reserve (libertyreserve.com), Pecunix (pecunix.com), Perfect Money (perfectmoney.com), Bit Coin (including exchanges that exchange);\n
+• attraction of Users to third-party resources, sites, or registration of Users on such resources, sites;\n
+• advertising of your services and goods or services and goods belonging to third parties;\n
+• services of an erotic nature;\n
+• cheat or change site statistics, the number of subscribers in social networks, etc .;\n
+ • ordering of automatic or manual distribution of invitations and messages to userModels of social networks, email newsletters;\n
+• provision of services for the distribution of goods;\n
+• medicines, food additives, biologically active additives;\n
+• poisons;\n
+• medicinal raw materials obtained from reindeer husbandry (antlers and endocrine raw materials);\n
+• narcotic drugs, psychotropic substances and their precursors, cultivation of narcotic plants;\n
+• services of storage, transportation, manufacture, processing of narcotic drugs, precursors, psychotropic substances or their analogues, as well as illegal acquisition, storage, transportation of plants containing narcotic drugs or psychotropic substances, or their parts containing narcotic drugs or psychotropic substances;\n
+•  services for the organization of prostitution, involvement in prostitution;\n
+•  content for adults, any pornography, sex video chats, sites indicating the placement of candid photos;\n
+• tobacco products;\n
+•  alcoholic beverages, ethyl alcohol;\n
+•  precious, rare metals and stones, jewelry, including waste containing precious and rare earth metals and precious stones;\n
+•  gold bars, investments in gold bars, any turnover of precious metals, natural precious stones or pearls, including the sale of items made of precious metals;\n
+• services to assist in the conduct of hostilities, regardless of the side of the conflict, the form of support (humanitarian aid, supply of weapons, communications, medicines, etc.);\n
+• weapons and ammunition (civil, service, firearms):\n
+</string>
+    <string name="resources_text_part" translatable="false">
+1. Development, production, testing, storage, repair and disposal.\n
+2. trade, including the main parts of firearms.\n
+3. ammunition, including cartridges and their components such as casings and primers.\n
+•  military equipment, spare parts, components and devices for it, explosives, explosives, gunpowder, all types of rocket fuel, as well as special materials and special equipment for their production, special equipment of personnel of paramilitary organizations and regulatory and technical products for their production and operation;\n
+• chemical warfare agents, means of protection against them, and normative and technical documentation for their production and use;\n
+• services for the manufacture / conversion / repair of firearms, their main parts, ammunition, explosives or explosive devices;\n
+• pesticides and agrochemicals limited in circulation;\n
+• strong or poisonous substances;\n
+• museum items and museum collections included in the Museum Fund of the country in which the User is registered.\n
+X-ray equipment, instruments and equipment using radioactive substances and isotopes;\n
+• rocket and space, complexes of military communications and control systems and normative and technical documentation for their production and operation;\n
+• gambling, including lotteries, bookmakers and sweepstakes;\n
+• forex, binary auctions, bitcoins;\n
+• financial pyramids, HYIP;\n
+• services for the placement of information, materials discrediting the honor and dignity of a person, violation of the secrecy of correspondence, personal life;\n
+• services for the creation, use and distribution of malicious computer programs;\n
+• cardsharing services;\n
+• services for the provision of illegal access to computer information;\n
+• services for hacking third party accounts, extracting classified information, and modifying it;\n
+• special technical means designed to secretly obtain information;\n
+• services for the distribution and sale of information constituting commercial, tax or banking secrets;\n
+• trade / production of counterfeit credit or payment cards and other payment instruments;\n
+• services for placing public appeals to carry out extremist activities, incite hatred or enmity, as well as humiliation of human dignity;\n
+• services for organizing an extremist community;\n
+• services of mediation in bribery;\n
+• any other goods or services prohibited under the laws of the country in which the userModel lives at the time of the incident.\n
+
+ 7.User Responsibility \n
+ Users are solely responsible for their actions / inaction when using the Resource. Users guarantee that the use of the Resource will be carried out by them in a way that will not violate the rights of third parties. Users guarantee that they have the rights to use the materials they post in the App.\n
+  Users are solely responsible for their actions / inaction when using the Resource. Users guarantee that the use of the Resource will be carried out by them in a way that will not violate the rights of third parties. Users warrant that they have the rights to use the materials posted by them in the Mobile App.\n
+   Users agree to abide by this Agreement. In case of violation of the Agreement by UsersUsers, the Administration reserves the right to temporarily restrict the User`s access to the Resource (temporary ban), and in case of gross and / or repeated violation of the Agreement, to refuse access to the Resource (permanent ban). In the event of a permanent ban, the User undertakes not to take any actions during his life, with the aim of gaining access to the Resource, the Administration has the right during the term of this obligation, that is, during the life. Of the User, to whom a permanent ban has been applied, to process his personal data in order to control compliance by such a User with the obligation to not take any action to gain access to the Resource. The same rules apply to a temporary ban.\n
+
+ 8.User Rights and obligations \n
+Any User of the Resource has the right to use the following features of the Resource:\n
+• Chatting with other Users;\n
+• Viewing photos posted by Users available for such viewing in accordance with this Agreement;\n
+• Send complaints to the Administration regarding violations of the Agreement by the Users;\n
+• Use other opportunities, access to which is provided to him by the Resource represented by the Administration;\n
+ Using the App, the userModel is prohibited from:\n
+• register as a User on behalf of or instead of another person (fake account);\n
+• mislead Users about their identity using the Login and Password of another registered User;\n
+• mislead Users about their identity by posting other people`s photos;\n
+• distort information about yourself, your name, age, gender, place of residence;\n
+• upload, store, publish, distribute and provide access or otherwise use any information that: contains threats, discredits, offends, defames honor and dignity or business reputation or violates the privacy of other Users or third parties; violates the rights of minors;\n
+is vulgar or obscene, contains pornographic images and texts or scenes of a sexual nature involving minors; contains scenes of inhuman treatment of animals; contains a description of the means and methods of suicide, any incitement to commit it; promotes and / or contributes to the incitement of racial, religious, ethnic hatred or enmity, promotes fascism or ideology of racial superiority; contains extremist materials; promotes criminal activity or contains advice, instructions or guidelines for committing criminal acts, contains information of limited access, including, but not limited to, state and commercial secrets, information about the private life of third parties;\n
+contains advertisements or describes the attractiveness of drug use, including "digital drugs" (sound files that affect the human brain through binaural beats), information about the distribution of drugs, recipes for their manufacture and advice on use; is fraudulent; and also violates other rights and interests of citizens and legal entities or the requirements of the legislation of the country in which the userModel lives at the time of the incident;\n
+• illegally upload, store, publish, distribute and provide access or otherwise use the intellectual property of Users and third parties;\n
+• use software and take actions aimed at disrupting the normal functioning of the Resource and its capabilities or personal accounts of Users;\n
+• in any way, including, but not limited to, by deception, abuse of trust, hacking, try to gain access to the Login and Password of another User;\n
+• post any other information that, in the personal opinion of the Administration, is undesirable, does not correspond to the purposes of creating the Resource, infringes on the interests of Users or for other reasons is undesirable for posting on the Resource;\n
+
+ 9.Chat function (messaging)\n
+After Verification, the User is provided with access to the messaging service, which allows you to exchange correspondence with the Administration and other Users. The correspondence carried out through this function is not personal. The userModel, using this Service, accepts the fact that the Administration at any time has the right to read the messages sent, in order to prevent violation of the Terms of Use of the Resource and the Legislation of the country in which the userModel is registered.\n
+The userModel agrees to receive personal messages from the Administration at any time and of any nature. The administration does not moderate (preview, evaluate and filter) messages sent by Users to each other. Users are prohibited from using the Chat (Messaging) Function to:\n
+• committing actions that violate the legislation of the country in which the User is registered, the norms of international law;\n
+• uploading, sending, transferring or any other way of publishing advertising information not permitted in a special way, spam, pyramid schemes, letters of happiness;\n
+• uploading, sending, transmitting or any other way of publishing materials that are illegal, harmful, threatening, offending morality, defamatory, violating copyright, promoting hatred and / or discrimination of people on racial, ethnic, gender, social grounds;\n
+• downloading, sending, transferring or any other way of publishing materials that violate the rights of third parties.\n
+The Administration reserves the right to provide, in cases stipulated by the legislation of the country in which the User is registered, access to the User`s personal messages to third parties.\n
+
+ 10. Resource Services\n
+The resource provides free services for the exchange of information between Users, with the aim of their further acquaintance, and the possibility of creating a family, in the full general and legal sense of the word.\n
+The User has the right to:\n
+• use the Functions and Services of the Resource, subject to the Acceptance of the Agreement and the Rules of the Resource, as an Offer;\n
+ The User undertakes:\n
+• when using the Services of the Resource, comply with all the conditions for the provision of the Services established in the Agreement;\n
+• not to abuse the provided opportunities, not to use independently or with the involvement of third parties the provision of the Services and / or the possibility of using the Resource Functions for purposes that may be qualified as a violation of the rights of third parties to intellectual property, unfair competition, other violation of the law; do not carry out actions that affect the normal operation of the Resource.\n
+The Verified User is solely responsible for the safety and confidentiality of registration data (login and password). All actions carried out in relation to the Services provided by the Resource using the login and password of the Verified User are considered to have been carried out by him. The Verified User is independently liable to third parties for all actions performed using his registration data (login and password). The Company is not responsible for the unauthorized use of the Verified User`s registration data by third parties.\n
+
+ 11.Resource Arbitration\n
+In the event of disputes between Users, or complaints from one User in relation to another User, they are resolved and considered by the Administration. Users agree that the Administration has the right to take any necessary actions based on the results of considering a disputed situation. The Administration decision is final and not subject to appeal. This function of the Administration is called Resource Arbitration\n
+
+ 12.Special conditions\n
+The resource does not guarantee that the software of the Mobile App and the Internet interface is free of errors or will function smoothly.\n
+The resource does not bear any responsibility for the decisions made by the Administration when resolving conflicts between Users.\n
+The resource is not responsible for losses or other harm incurred by the User in connection with the actions of third parties.\n
+ The resource reserves the right to remove from its servers any information or materials that, to the Administration opinion are unacceptable, undesirable or violate this Agreement.\n
+ The resource does not control the information, services and products located in or offered through the Internet. As a result, the User accepts the condition that all goods, information and services offered or available through the Resource or on the Internet are provided by third parties that are in no way associated with the Resource. The User assumes full responsibility and risks for the use of Advertising and the Internet. The Company does not provide any guarantees for any goods, information and services supplied through Advertising or via the Internet in general. The company will not be held liable for any costs or damage directly or indirectly arising from such deliveries. The userModel accepts the condition that he accepts responsibility for assessing the accuracy, completeness and suitability of all opinions, ratings, services and other information, quality and functions of the goods provided through the Advertising or the Internet in general.\n
+ All rights to materials posted on the Resource by Users (userModel content), including intellectual rights, belong to the respective Users and / or other copyright holders. The User provides the Resource with guarantees regarding the userModel content. With the placement by Users of userModel-generated content on the Resource, the Resource, at no cost, receives a perpetual non-exclusive right (simple license) to use such userModel content and the intellectual property objects included in it throughout the world within the limits of its use by any permitted in accordance with the legislation of that country in which the userModel is registered, in ways, including without specifying the name (pseudonym) of the author, in order to 1) fulfill the terms of this Agreement by the Resource, 2) protect the rights and legitimate interests of the Resource. The resource has the right to provide the received volume of rights to third parties in order to fulfill the stated purposes, as well as create archive copies of userModel content. All rights to the Resource and its functions, including the rights to intellectual property objects that are part of the Resource and its functions (including, but not limited to, computer programs, databases, graphic design), as well as the rights to the logo and other similar works, the rights to the Yes u Du trademarks (verbal, figurative and combined) belong to the Individual, the owner of this Intellectual Property and Resource or its affiliates.\n
+ In relation to the Resource and its functions, reverse engineering, emulation, disassembly, decompilation, decoding, modification, translation into other languages is prohibited; it is prohibited to reproduce the design of the Mobile App and the Internet interface or part of it; it is prohibited to violate the protection systems of the Mobile App and the Internet interface, delete, hide or change signs or notices about the intellectual rights of the Resource and its affiliates placed in the Mobile App and the Internet interface.\n
+It is also prohibited for third parties to automatically process information posted or contained in the Mobile App and the Internet interface.\n
+  Without the prior written permission of the Resource, it is prohibited to use the intellectual property of the Resource and its affiliates by any means (for any, including non-commercial, purposes), except as expressly provided for in this Agreement.\n
+  The use of userModel content, in whole or in part (including photos and images, information about Users and other information posted by them in the Mobile App or the Internet interface) is also prohibited without the prior written permission of the Resource. Prohibited use includes copying, collecting, recording, organizing, accumulating, storing, modifying, retrieving, reproducing, posting, transferring, deleting and any other way of using such userModel content, for any purpose, including non-commercial.\n
+
+ 13. Entry into force and procedure for amendment of this Agreement\n
+  The Agreement and changes to them come into force from the moment they are published in the Mobile App and the Internet interface. Changes to the Agreement can be made at any time. The User undertakes to familiarize himself with the current version of the Agreement before each use of the Resource. If the User decides not to agree with the amended Agreement, then he must refuse to use the Service. The userModel who continues to use the Resource agrees to the changes.\n
+
+  14. Applicable law\n
+All relationships between the Resource and the Users are subject to regulation solely by the legislation of the country in which the User lives at the time of the incident. In case of violation of the legislation of the country in which the User lives at the time of the incident, in which he bears full administrative and criminal responsibility.\n
+
+</string>
+    <string name="licence_text" translatable="false">
+        Yes u Du for Android is built including 3rd party software \n
+\n
+******\n
+\n
+Volley\n
+\n
+Copyright (C) 2012 The Android Open Source Project\n
+\n
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n
+\n
+http://www.apache.org/licenses/LICENSE-2.0\n
+\n
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n
+    </string>
+    <string name="about_us">About us</string>
+    <string name="licence">License</string>
+    <string name="rule_and_resources">Rules of resource</string>
+    <string name="read_rules">By registering, you agree to our</string>
+    <string name="read_rules2">Policy and Rules</string>
+    <string name="region_label">Region</string>
+    <string-array name="country_filter">
+        <item> </item>
+        <item>Russia</item>
+        <item>Armenia</item>
+        <item>Artsakh</item>
+        <item>USA</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Iran</item>
+        <item>Syria</item>
+        <item>Lebanon</item>
+        <item>Ukraine</item>
+        <item>Turkey</item>
+        <item>Canada</item>
+        <item>Argentina</item>
+        <item>Uzbekistan</item>
+        <item>Abkhazia</item>
+        <item>Australia</item>
+        <item>Germany</item>
+        <item>Brazil</item>
+        <item>Greece</item>
+        <item>Spain</item>
+        <item>Turkmenistan</item>
+        <item>Bulgaria</item>
+        <item>Belarus</item>
+        <item>Kazakhstan</item>
+        <item>Hungary</item>
+        <item>Israel</item>
+        <item>Iraq</item>
+        <item>Uruguay</item>
+        <item>Great Britain</item>
+        <item>Czech</item>
+        <item>Poland</item>
+        <item>Netherlands</item>
+        <item>Belgium</item>
+        <item>Egypt</item>
+        <item>UAE</item>
+        <item>Austria</item>
+        <item>Moldova</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Kuwait</item>
+        <item>Italy</item>
+        <item>Denmark</item>
+        <item>Cyprus</item>
+        <item>Jordan</item>
+        <item>Romania</item>
+        <item>Lithuania</item>
+        <item>Estonia</item>
+        <item>Norway</item>
+        <item>Tajikistan</item>
+        <item>Kyrgyzstan</item>
+        <item>Slovakia</item>
+        <item>Finland</item>
+        <item>Qatar</item>
+        <item>Chile</item>
+        <item>South Ossetia</item>
+    </string-array>
+
+    <string-array name="region_filter_rus">
+        <item> </item>
+        <item>Moscow reg.</item>
+        <item>Krasnodar reg.</item>
+        <item>Stavropol reg.</item>
+        <item>Leningrad reg.</item>
+        <item>Rostov region</item>
+        <item>Adygea</item>
+        <item>Altai reg.</item>
+        <item>Altai republic</item>
+        <item>Amur reg.</item>
+        <item>Arhangelsk reg.</item>
+        <item>Astrakhan reg..</item>
+        <item>Bashkortostan</item>
+        <item>Belgorod reg.</item>
+        <item>Bryansk reg.</item>
+        <item>Buryatia</item>
+        <item>Vladimir reg.</item>
+        <item>Volgograd reg.</item>
+        <item>Vologda reg.</item>
+        <item>Voronezh reg.</item>
+        <item>Dagestan</item>
+        <item>Jewish Aut.Reg.</item>
+        <item>Zabaykalsky reg.</item>
+        <item>Ivanovo reg.</item>
+        <item>Irkutsk reg.</item>
+        <item>Kabardino-Balkaria</item>
+        <item>Kaliningrad reg.</item>
+        <item>Kaluga reg.</item>
+        <item>Kamchatka reg.</item>
+        <item>Karachay-Cherkessia</item>
+        <item>Kemerovo reg.</item>
+        <item>Kirov reg.</item>
+        <item>Komi</item>
+        <item>Kostroma reg.</item>
+        <item>Krasnoyarsk reg.</item>
+        <item>Kostroma reg.</item>
+        <item>Crimea</item>
+        <item>Kurgan reg.</item>
+        <item>Kursk reg.</item>
+        <item>Lipetsk reg.</item>
+        <item>Magadan reg.</item>
+        <item>Марий Эл</item>
+        <item>Мордовия</item>
+        <item>Murmansk reg.</item>
+        <item>Nizhny Novgorod reg.</item>
+        <item>Novgorod reg.</item>
+        <item>Novosibirsk re.</item>
+        <item>Omsk reg.</item>
+        <item>Orenburg reg.</item>
+        <item>Oryol reg.</item>
+        <item>Penza reg.</item>
+        <item>Perm reg.</item>
+        <item>Primorsky reg.</item>
+        <item>Pskov reg.</item>
+        <item>Ryazan reg.</item>
+        <item>Samara reg.</item>
+        <item>Saratov reg.</item>
+        <item>Sakha(Yakutia)</item>
+        <item>Sakhalin reg.</item>
+        <item>North Ossetia-Alania</item>
+        <item>Sverdlovsk reg.</item>
+        <item>Tambov reg.</item>
+        <item>Tatarstan</item>
+        <item>Tver reg.</item>
+        <item>Tomsk reg.</item>
+        <item>Tula reg.</item>
+        <item>Tyumen reg.</item>
+        <item>Udmurtia</item>
+        <item>Ulyanovsk reg.</item>
+        <item>Khabarovsk reg.</item>
+        <item>Хакасия</item>
+        <item>Khanty-Mansi Aut.Reg.</item>
+        <item>Chelyabinsk reg.</item>
+        <item>Chuvashia</item>
+        <item>Yamalo-Nenets Aut.Reg.</item>
+        <item>Yaroslavl reg.</item>
+    </string-array>
+    <string-array name="region_filter_usa">
+        <item> </item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+    <string-array name="region_filter_armenia">
+        <item> </item>
+        <item>Aragatsotn</item>
+        <item>Ararat</item>
+        <item>Armavir</item>
+        <item>Gegharkunik</item>
+        <item>Lori</item>
+        <item>Shirak</item>
+        <item>Syunik</item>
+        <item>Tavush</item>
+        <item>Vayots Dzor</item>
+    </string-array>
+    <string-array name="no_region_filter">
+        <item>-</item>
+    </string-array>
+    <string name="dialog_title">Search</string>
+    <string name="photo_demands" translatable="false">
+  Photo must be close-up, so that userModels can clearly see them.
+\n
+It is forbidden to upload photos:\n
+  \n
+ - taken from afar\n
+ - substandard (with a violation of sharpness, lighting, etc.)\n
+ - already existing in the profile or very similar to them\n
+ - other people`s \n
+ - on which the userModel is not visible or not at all\n
+ - on which the face is poorly visible, or only part of the face is visible\n
+ - flowers, animals, insects, landscapes, buildings, structures, etc.\n
+ - erotic and pornographic content\n
+ - group photos\n
+ - baby photos\n
+ - irrelevant (made 2 years ago or more)\n
+ - in sunglasses\n
+ - tilted to the right, left, upside down, in profile\n
+ - parts of the userModel`s body (arms, legs, lips, back, etc.)\n
+ - containing scenes of violence\n
+ - containing advertisements\n
+ - non-original (frames, inscriptions, hearts, flowers, etc.)\n
+ - black and white photos\n
+\n
+Photos that do not meet the above requirements will be deleted by the Administration, and the account will be blocked until valid photos are uploaded. For re-uploading previously rejected photos, your account will be blocked for a period of 3 days.\n
+    </string>
+    <string name="accept_string">Are you sure you want to delete your account?</string>
+    <string name="accept_unblock_string">Are you sure you want to unblock this account?</string>
+    <string name="no_neg_button_text">No</string>
+    <string name="yes_pos_button_text">Yes</string>
+    <string name="edit_message">Edit message</string>
+    <string name="delete_my_message">Delete for yourself</string>
+    <string name="delete_all_message">Delete for everyone</string>
+    <string name="accept_msg_string">Are you sure you want to delete this message?</string>
+    <string name="edit_message_title">Edit</string>
+    <string name="typing">typing…</string>
+    <string name="favorite_chat">Add in favorites</string>
+    <string name="edit_user" translatable="false">Edit userModel</string>
+    <string name="favoritelist">Favorites</string>
+    <string name="unfavorite_msg_text">Delete from favorite?</string>
+    <string name="list_block_admin">Time-blocked by admin</string>
+    <string name="perm_block_account">Permanent block</string>
+    <string name="verified">Confirm account</string>
+    <string name="cancel_verified">Cancel verify</string>
+    <string name="perm_block_account_title">Permanent blocked</string>
+    <string name="unblock_account_perm">Unblock account(permanent)</string>
+    <string name="date_birth">Add age</string>
+    <string name="change_birth">Change age</string>
+    <string name="go_chat_btn_title">Write to administration</string>
+    <string name="go_complain_btn_title">Complain</string>
+    <string name="complain_completed">the complaint was successfully sent</string>
+    <string name="advertising_title">Advertising of goods and services</string>
+    <string name="fishing_title">Fishing</string>
+    <string name="illegal_substance_title">Sale of illegal drugs</string>
+    <string name="obscene_content_title">Intimacy services</string>
+    <string name="extrimism_title">Extremism or nationalism</string>
+    <string name="pornographic_content_title">Pornographic content</string>
+    <string name="illegal_photos_title">Invalid photos in profile</string>
+    <string name="underage">Underage userModel</string>
+    <string name="fake_profile_title">Fake profile</string>
+    <string name="false_age">Age</string>
+    <string name="false_location">Wrong location</string>
+    <string name="married">Married</string>
+    <string name="threats_title">Threats or insults</string>
+    <string name="another_reason_title">Another</string>
+    <string name="wrong">Wrong:</string>
+    <string name="false_country">Country</string>
+    <string name="false_city">City</string>
+    <string name="false_country_and_country">Country and city</string>
+    <string name="false_name">Name</string>
+
+    <string name="complaint_beginning">Complaint!\n Subject: </string>
+    <string name="complaint_ending" translatable="false">\n Name: </string>
+
+    <string name="complaint_id" translatable="false"> \n id: </string>
+    <string name="was">was</string>
+    <string name="she_was">was</string>
+    <string name="today">today</string>
+    <string name="yesterday">yesterday</string>
+    <string name="week_ago">week ago</string>
+    <string name="month_ago">month ago</string>
+    <string name="in">in</string>
+    <string name="sure_block_user">Block userModel </string>
+    <string name="sure_delete_user">Are you sure want to delete chat with</string>
+
+    <string name="far_photo">taken from afar</string>
+    <string name="poorly_visible">poor quality</string>
+    <string name="substandard">the same or similar to each other</string>
+    <string name="other_people">strangers</string>
+    <string name="not_visible_user">on which the user is absent</string>
+    <string name="parts_of_user">in which only part of the face is visible</string>
+    <string name="porno_photo">erotic or pornographic content</string>
+    <string name="group_photos">group</string>
+    <string name="already_existing">outdated( made 2 years ago or more )</string>
+    <string name="tilted_in_profile">in profile, with a tilt of the head</string>
+    <string name="containing_scenes">processed in graphic editors</string>
+    <string name="black_and_white_photos">non-colored</string>
+    <string name="any_things">in a headdress</string>
+    <string name="irrelevant">which depict animals</string>
+
+    <string name="illegal_photos">Illegal photo:</string>
+    <string name="delete_image">Delete photo</string>
+    <string name="impossible_main_photo">You can not delete main photo, only update in account</string>
+    <string name="blocked_by_admin_on_chatlist_title">This user has been blocked by admin</string>
+    <string name="perm_blocked_by_admin_on_chatlist_title">this user is permanently blocked</string>
+    <string name="blocked_by_admin_user">User was blocked of admin</string>
+    <string name="enter_date_birthday">Add age</string>
+    <string name="enter_true_age">Enter true age</string>
+    <string name="age_was_add">Age added</string>
+    <string name="age_before_18">Registration is prohibited for persons under 18 years of age</string>
+    <string name="age_after_70">Choose age less than 70 years</string>
+    <!--<string name="banner_ad_unit_id" translatable="false">ca-app-pub-7303999107197653/4611397305</string>!-->
+    <string name="banner_ad_unit_id" translatable="false"> ca-app-pub-3940256099942544/6300978111</string>
+    <string name="data_notif">Dear userModel, please indicate your real data. In case of detection of fictitious data, the userModel will be deleted by the Administration.</string>
+    <string name="remember_password">Remember your password</string>
+    <string name="refuse_or_accept_photos">Allow or prohibit receiving photos</string>
+    <string name="refuse_photos">Prohibit receiving photos</string>
+    <string name="accept_photos">Allow receiving photos</string>
+    <string name="error">Error</string>
+    <string name="russia">Russia</string>
+
+</resources>

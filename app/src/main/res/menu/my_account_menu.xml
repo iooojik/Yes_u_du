@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/custmoize"
+        android:icon="@drawable/edit_acc_item"
+        android:title="@string/edit_account"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/blocklist"
+        android:title="@string/blocklist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favoritelist"
+        android:title="@string/favoritelist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/reset_menu_password"
+        android:title="@string/reset_password"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/information_menu"
+        android:title="@string/about_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/chat_administrator"
+        android:title="@string/admin"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete_account"
+        android:title="@string/remove_account_menu_item"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/baseline_login_black_18dp"
+        android:title="@string/logout_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/panel_admin"
+        android:title="@string/panel_admin"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>
