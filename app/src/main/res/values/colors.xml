@@ -7,6 +7,7 @@
     <color name="text_color">#bebebe</color>
     <color name="colorWarning">#F37468</color>
     <color name="white">#ffffff</color>
+    <color name="greyish">#acacac</color>
 
     <color name="dark_blue">#204062</color>
     <color name="login">#9aceeb</color>

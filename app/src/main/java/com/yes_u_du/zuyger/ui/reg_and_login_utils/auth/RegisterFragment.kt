@@ -71,8 +71,8 @@ class RegisterFragment : Fragment(), EditAccountHelper, LocationUtil {
 			val intent = InformationActivity.newIntent(activity, informationText)
 			startActivity(intent)
 		}
-		binding.photo1.setOnClickListener { openImage(1) }
-		binding.photo2.setOnClickListener { openImage(2) }
+		binding.photo1.root.setOnClickListener { openImage(1) }
+		binding.photo2.root.setOnClickListener { openImage(2) }
 		binding.registrationButton.setOnClickListener { setRegistration() }
 		
 		binding.callCalendarTextView.setOnClickListener {
@@ -238,7 +238,9 @@ class RegisterFragment : Fragment(), EditAccountHelper, LocationUtil {
 				.addOnCompleteListener { task: Task<AuthResult?> ->
 					if (task.isSuccessful) {
 						if (auth!!.currentUser != null) {
-							Toast.makeText(requireActivity(), R.string.is_successful, Toast.LENGTH_SHORT).show()
+							Toast.makeText(requireActivity(),
+								R.string.is_successful,
+								Toast.LENGTH_SHORT).show()
 							ref = db!!.getReference("users")
 								.child(Objects.requireNonNull(auth!!.currentUser)!!
 									.uid)
@@ -251,7 +253,8 @@ class RegisterFragment : Fragment(), EditAccountHelper, LocationUtil {
 							ref!!.child("sex").setValue(sex)
 							ref!!.child("age").setValue(age)
 							ref!!.child("status").setValue("offline")
-							ref!!.child(requireActivity().resources.getString(R.string.admin_key)).setValue("false")
+							ref!!.child(requireActivity().resources.getString(R.string.admin_key))
+								.setValue("false")
 							ref!!.child("online_time").setValue(Date().time)
 							ref!!.child("admin_block").setValue("unblock")
 							ref!!.child("perm_block").setValue("unblock")
@@ -306,9 +309,10 @@ class RegisterFragment : Fragment(), EditAccountHelper, LocationUtil {
 		pd.setMessage(resources.getString(R.string.uploading))
 		pd.show()
 		if (imageUri != null) {
-			val fileReference = FirebaseStorage.getInstance().getReference(FirebaseStatic.UPLOADS_REFERENCE)
-				.child(System.currentTimeMillis().toString() +
-						"." + getFileExtension(imageUri!!))
+			val fileReference =
+				FirebaseStorage.getInstance().getReference(FirebaseStatic.UPLOADS_REFERENCE)
+					.child(System.currentTimeMillis().toString() +
+							"." + getFileExtension(imageUri!!))
 			fileReference.putFile(imageUri!!).continueWithTask { task ->
 				if (!task.isSuccessful) {
 					throw task.exception!!
@@ -363,12 +367,12 @@ class RegisterFragment : Fragment(), EditAccountHelper, LocationUtil {
 	private fun downloadUri(uri: String, i: Int) {
 		if (i == 1) {
 			uri1 = uri
-			Glide.with(requireContext()).load(uri).into(
-				binding.photo1)
+			Glide.with(requireContext()).load(uri).into(binding.photo1.photo)
+			binding.photo1.photo.background = null
 		} else {
 			uri2 = uri
-			Glide.with(requireContext()).load(uri).into(
-				binding.photo2)
+			Glide.with(requireContext()).load(uri).into(binding.photo2.photo)
+			binding.photo2.photo.background = null
 		}
 	}
 	
