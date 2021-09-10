@@ -432,7 +432,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
     <string name="about_us">About us</string>
     <string name="licence">License</string>
     <string name="rule_and_resources">Rules of resource</string>
-    <string name="read_rules">By registering, you agree to our</string>
+    <string name="read_rules">By registering, you agree to our Policy and Rules</string>
     <string name="read_rules2">Policy and Rules</string>
     <string name="region_label">Region</string>
     <string-array name="country_filter">
@@ -761,5 +761,12 @@ Photos that do not meet the above requirements will be deleted by the Administra
     <string name="accept_photos">Allow receiving photos</string>
     <string name="error">Error</string>
     <string name="russia">Russia</string>
-
+    <string name="logo_desc" translatable="false">logo</string>
+    <string name="avatar_image_description" translatable="false">avatar</string>
+    <string name="send_description" translatable="false">send_description</string>
+    <string name="message_hint" translatable="false">Message…</string>
+    <string name="attach_file_desc" translatable="false">attach_file_desc</string>
+    <string name="empty_fields">Поля пусты</string>
+    <string name="email_info_sent">Ссылка для восстановления пароля отправлена на ваш email</string>
+    <string name="send_to_email">Отправить на email</string>
 </resources>

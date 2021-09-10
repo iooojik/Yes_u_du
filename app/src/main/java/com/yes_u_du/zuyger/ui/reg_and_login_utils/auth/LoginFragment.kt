@@ -46,7 +46,7 @@ class LoginFragment : Fragment(), View.OnClickListener,
 	}
 	
 	private fun setListeners() {
-		binding.forgotpass.setOnClickListener(this)
+		binding.forgotPass.setOnClickListener(this)
 		binding.regLogButton.setOnClickListener(this)
 		binding.loginLogButton.setOnClickListener(this)
 		binding.rulesOfRes.setOnClickListener(this)
@@ -82,7 +82,7 @@ class LoginFragment : Fragment(), View.OnClickListener,
 	
 	override fun onClick(v: View) {
 		when (v.id) {
-			R.id.forgotpass -> {
+			R.id.forgot_pass -> {
 				val intent = Intent(context, ForgotPass::class.java)
 				startActivity(intent)
 			}
@@ -116,6 +116,7 @@ class LoginFragment : Fragment(), View.OnClickListener,
 		var isReturn = false
 		if (binding.emailTextField.editText!!.text.toString().trim().isEmpty()) {
 			binding.emailTextField.isErrorEnabled = true
+			binding.emailTextField.error = " "
 			binding.emailTextField.editText?.doOnTextChanged { text, _, _, _ ->
 				if (!text.isNullOrEmpty() && text.contains("@")) {
 					binding.emailTextField.isErrorEnabled = false
@@ -125,6 +126,7 @@ class LoginFragment : Fragment(), View.OnClickListener,
 		}
 		if (binding.passwordTextField.editText!!.text.toString().trim().isEmpty()) {
 			binding.passwordTextField.isErrorEnabled = true
+			binding.passwordTextField.error = " "
 			binding.passwordTextField.editText!!.doOnTextChanged { text, _, _, _ ->
 				if (!text.isNullOrEmpty()) binding.passwordTextField.isErrorEnabled = false
 			}
@@ -162,7 +164,8 @@ class LoginFragment : Fragment(), View.OnClickListener,
 	private fun setCurrentUser() {
 		val uuid = FirebaseAuth.getInstance().currentUser?.uid
 		if (uuid != null) {
-			val ref = FirebaseDatabase.getInstance().getReference(FirebaseStatic.USERS_REFERENCE).child(uuid)
+			val ref = FirebaseDatabase.getInstance().getReference(FirebaseStatic.USERS_REFERENCE)
+				.child(uuid)
 			ref.addValueEventListener(object : ValueEventListener {
 				override fun onDataChange(snapshot: DataSnapshot) {
 					UserModel.setCurrentUser(snapshot.getValue(UserModel::class.java),

@@ -27,9 +27,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.yes_u_du.zuyger.R;
+import com.yes_u_du.zuyger.models.UserModel;
 import com.yes_u_du.zuyger.ui.chat_list.fragment.BlockListFragment;
 import com.yes_u_du.zuyger.ui.chat_list.fragment.FavoriteListFragment;
-import com.yes_u_du.zuyger.models.UserModel;
 
 import java.util.ArrayList;
 import java.util.Collections;

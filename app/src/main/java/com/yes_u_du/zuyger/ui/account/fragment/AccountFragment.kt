@@ -2,7 +2,6 @@ package com.yes_u_du.zuyger.ui.account.fragment
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View

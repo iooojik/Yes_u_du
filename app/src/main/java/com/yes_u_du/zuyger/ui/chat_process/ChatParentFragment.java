@@ -43,9 +43,9 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
 import com.yes_u_du.zuyger.R;
-import com.yes_u_du.zuyger.ui.account.UserAccountActivity;
 import com.yes_u_du.zuyger.models.ChatMessage;
 import com.yes_u_du.zuyger.models.UserModel;
+import com.yes_u_du.zuyger.ui.account.UserAccountActivity;
 import com.yes_u_du.zuyger.ui.chat_process.users.ChatFragment;
 import com.yes_u_du.zuyger.ui.dialogs.EditMessageDialog;
 import com.yes_u_du.zuyger.ui.photo_utils.viewpager.PhotoViewPagerItemFragment;
@@ -104,10 +104,10 @@ public abstract class ChatParentFragment extends Fragment implements View.OnClic
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.fab) {
+        if (v.getId() == R.id.send_message_button) {
             saveMessageToDB();
         }
-        if (v.getId() == R.id.send_image_button) {
+        if (v.getId() == R.id.attach_file_button) {
             openImage();
         }
     }

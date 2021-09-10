@@ -2,7 +2,6 @@ package com.yes_u_du.zuyger.ui.chat_process
 
 import android.app.Activity
 import android.content.Context
-import android.content.DialogInterface
 import android.content.Intent
 import android.provider.MediaStore
 import android.view.View

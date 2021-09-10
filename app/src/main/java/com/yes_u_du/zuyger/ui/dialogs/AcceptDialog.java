@@ -23,10 +23,10 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.yes_u_du.zuyger.R;
+import com.yes_u_du.zuyger.models.UserModel;
 import com.yes_u_du.zuyger.ui.account.fragment.MyAccountFragment;
 import com.yes_u_du.zuyger.ui.chat_list.admin.block.AdminPermBlockListFragment;
 import com.yes_u_du.zuyger.ui.chat_list.admin.block.AdminTimeBlockListFragment;
-import com.yes_u_du.zuyger.models.UserModel;
 import com.yes_u_du.zuyger.ui.chat_process.users.ChatFragment;
 import com.yes_u_du.zuyger.ui.reg_and_login_utils.AuthorizationActivity;
 

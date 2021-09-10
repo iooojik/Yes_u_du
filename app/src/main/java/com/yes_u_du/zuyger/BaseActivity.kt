@@ -1,14 +1,13 @@
 package com.yes_u_du.zuyger
 
 import android.os.Bundle
-import android.view.WindowManager
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.firebase.database.FirebaseDatabase
 import com.yes_u_du.zuyger.constants.FirebaseStatic
-import com.yes_u_du.zuyger.sharedprefs.MyPreferences.Companion.userPreferences
 import com.yes_u_du.zuyger.models.UserModel
+import com.yes_u_du.zuyger.sharedprefs.MyPreferences.Companion.userPreferences
 import com.yes_u_du.zuyger.sharedprefs.StaticPrefrences
 import java.util.*
 
@@ -20,7 +19,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         //блокировка скриншотов и видео
-        window.setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE)
+        //window.setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE)
         super.onCreate(savedInstanceState)
         //получение настроек
         userPreferences = getSharedPreferences(StaticPrefrences.SHARED_PREFERENCES_USER, MODE_PRIVATE)

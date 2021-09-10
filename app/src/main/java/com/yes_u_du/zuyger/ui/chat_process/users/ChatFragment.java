@@ -117,8 +117,8 @@ public class ChatFragment extends ChatParentFragment {
         } else setToolbarToAcc();
         statusText = v.findViewById(R.id.online_text_in_chat);
         recyclerView = v.findViewById(R.id.list_of_messages);
-        fab = v.findViewById(R.id.fab);
-        send_image = v.findViewById(R.id.send_image_button);
+        fab = v.findViewById(R.id.send_message_button);
+        send_image = v.findViewById(R.id.attach_file_button);
         send_image.setOnClickListener(this);
         input = v.findViewById(R.id.input);
         input.addTextChangedListener(this);
@@ -422,10 +422,10 @@ public class ChatFragment extends ChatParentFragment {
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.fab) {
+        if (v.getId() == R.id.send_message_button) {
             saveMessageToDB();
         }
-        if (v.getId() == R.id.send_image_button) {
+        if (v.getId() == R.id.attach_file_button) {
             openImage();
         }
     }

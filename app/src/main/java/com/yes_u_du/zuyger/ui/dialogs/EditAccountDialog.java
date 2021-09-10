@@ -17,9 +17,9 @@ import androidx.fragment.app.DialogFragment;
 
 import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.google.firebase.database.FirebaseDatabase;
-import com.yes_u_du.zuyger.utils.EditAccountHelper;
 import com.yes_u_du.zuyger.R;
 import com.yes_u_du.zuyger.models.UserModel;
+import com.yes_u_du.zuyger.utils.EditAccountHelper;
 
 import java.util.HashMap;
 

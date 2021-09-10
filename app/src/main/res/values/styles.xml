@@ -2,24 +2,48 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#2196F3</item>
-        <item name="colorPrimaryDark">#1976D2</item>
-        <item name="colorAccent">#3a75c4</item>
-        <item name="android:actionMenuTextColor">@color/chat_text</item>
-        <item name="actionMenuTextAppearance">@style/menu_text_style</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="fontFamily">@font/calibri</item>
+        <item name="materialButtonStyle">@style/customButton</item>
+        <item name="textInputStyle">@style/custom_text_input_layout</item>
     </style>
 
-    <style name="ButtonMain">
-        <item name="android:background">@drawable/edit_button</item>
+    <style name="customButton" parent="Widget.MaterialComponents.Button">
+        <!--<item name="backgroundTint">@color/colorAccent</item>-->
     </style>
 
-    <style name="menu_text_style" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
-        <item name="android:textSize">18dp</item>
+    <style name="blue_medium_text_view" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
     </style>
 
-    <style name="Divider">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:background">?android:attr/listDivider</item>
+    <style name="blue_small_text_view" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="custom_text_input_layout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorAccent</item>
+        <item name="errorTextColor">@color/colorWarning</item>
+    </style>
+
+    <style name="floatingActionButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+    </style>
+
+    <style name="send_message_input_text_style" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="send_message_button" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="fabSize">mini</item>
+        <item name="srcCompat">@drawable/outline_send_24</item>
+        <item name="contentDescription">@string/send_description</item>
+        <item name="elevation">0dp</item>
     </style>
 </resources>

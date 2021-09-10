@@ -1,8 +1,6 @@
 package com.yes_u_du.zuyger.ui.account.fragment
 
 import android.app.ProgressDialog
-import android.content.Context
-import android.location.Address
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
@@ -16,7 +14,6 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.yes_u_du.zuyger.R
 import com.yes_u_du.zuyger.models.UserModel
-import java.io.IOException
 
 class UserAccountFragment : AccountFragment() {
 	private var userModel: UserModel? = null

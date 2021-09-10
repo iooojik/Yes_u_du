@@ -9,9 +9,9 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.yes_u_du.zuyger.ui.chat_list.fragment.ChatRecViewAdapter;
-import com.yes_u_du.zuyger.ui.chat_list.fragment.ChatListFragment;
 import com.yes_u_du.zuyger.models.UserModel;
+import com.yes_u_du.zuyger.ui.chat_list.fragment.ChatListFragment;
+import com.yes_u_du.zuyger.ui.chat_list.fragment.ChatRecViewAdapter;
 
 import java.util.ArrayList;
 

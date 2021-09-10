@@ -181,10 +181,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:background="@drawable/edit_button"
                 android:padding="8dp"
-                android:text="@string/reg_button_text"
-                android:textColor="@color/chat_text" />
+                android:text="@string/reg_button_text" />
         </LinearLayout>
 
     </ScrollView>

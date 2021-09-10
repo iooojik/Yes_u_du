@@ -18,7 +18,6 @@
         android:roundIcon="@drawable/chat_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.reg_and_login_utils.forgot.ForgotPass" />
 
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -38,6 +37,8 @@
         <activity
             android:name=".ui.account.UserAccountActivity"
             android:parentActivityName="com.yes_u_du.zuyger.ui.chat_process.ChatActivity" />
+        <activity
+            android:name=".ui.reg_and_login_utils.forgot.ForgotPass" />
         <activity
             android:name=".ui.chat_list.admin.AdminBlockListActivity"
             android:parentActivityName=".ui.account.UserAccountActivity" />

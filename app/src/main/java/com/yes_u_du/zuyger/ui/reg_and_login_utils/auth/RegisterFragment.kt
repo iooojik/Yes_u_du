@@ -26,17 +26,14 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
-import com.yes_u_du.zuyger.utils.EditAccountHelper
 import com.yes_u_du.zuyger.LocationUtil
 import com.yes_u_du.zuyger.R
 import com.yes_u_du.zuyger.constants.FirebaseStatic
 import com.yes_u_du.zuyger.databinding.FragmentRegisterBinding
 import com.yes_u_du.zuyger.ui.rules_and_policy.InformationActivity
+import com.yes_u_du.zuyger.utils.EditAccountHelper
 import octii.app.taxiapp.services.location.MyLocationListener
 import java.util.*
-
-
-
 
 
 class RegisterFragment : Fragment(), EditAccountHelper, LocationUtil {

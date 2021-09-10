@@ -123,7 +123,7 @@
     <string name="about_us">О нас</string>
     <string name="licence">Лицензия</string>
     <string name="rule_and_resources">Правила ресурса</string>
-    <string name="read_rules">Регистрируясь, вы соглашаетесь с нашими</string>
+    <string name="read_rules">Регистрируясь, вы соглашаетесь с нашими Правилами и Политикой</string>
     <string name="read_rules2">Правилами и Политикой</string>
     <string name="region_label">Регион</string>
     <string-array name="country_filter">
@@ -419,4 +419,7 @@
     <string name="make_admin">Сделать администратором</string>
     <string name="error">Ошибка</string>
     <string name="russia">Россия</string>
+    <string name="empty_fields">Поля пусты</string>
+    <string name="email_info_sent">Ссылка для восстановления пароля отправлена на ваш email</string>
+    <string name="send_to_email">Отправить на email</string>
 </resources>
