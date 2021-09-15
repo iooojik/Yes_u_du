@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -21,13 +22,13 @@
                 android:id="@+id/photo1"
                 layout="@layout/photo_upload_item"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content" />
 
             <include
                 android:id="@+id/photo2"
                 layout="@layout/photo_upload_item"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <TextView
@@ -54,7 +55,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -62,73 +64,158 @@
             android:id="@+id/surname_text_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
             android:hint="@string/surname_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
+            android:layout_marginTop="@dimen/top_margin"
             android:text="@string/sex"
             android:textSize="16dp" />
 
-        <Spinner
-            android:id="@+id/spinner_sex"
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:entries="@array/sex_for_spinner" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-        <!--<EditText
-            android:id="@+id/age_reg_edit_text"
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/male_selector"
+                android:layout_width="152dp"
+                android:layout_height="55dp"
+                android:layout_gravity="start"
+                android:background="@drawable/sex_square"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/male_sex"
+                    android:textColor="#acacac"
+                    android:textStyle="bold" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/female_selector"
+                android:layout_width="152dp"
+                android:layout_height="55dp"
+                android:layout_gravity="end"
+                android:background="@drawable/sex_square"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/female_sex"
+                    android:textColor="#acacac"
+                    android:textStyle="bold" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/country_text_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:layout_margin="8dp"
-            android:hint="@string/age_reg_hint"/>!-->
-        <!-- <Button
-             android:id="@+id/call_calendar_button"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_gravity="center"
-             android:layout_margin="8dp"
-             android:padding="8dp"
-             android:background="@drawable/edit_button"
-             android:text="@string/date_birth"
-             android:textColor="@color/chat_text"
-             />!-->
+            android:layout_marginTop="@dimen/top_margin"
+            android:enabled="false"
+
+            android:hint="@string/country_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/region_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+            android:enabled="false"
+
+            android:hint="@string/region_reg_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/city_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+
+            android:enabled="false"
+
+            android:hint="@string/city_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
         <TextView
             android:id="@+id/call_calendar_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="14dp"
+            android:layout_marginTop="@dimen/top_margin"
             android:text="@string/date_birth"
-            android:textSize="16dp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-
-        <TextView
-            style="@android:style/TextAppearance.Small"
-            android:layout_width="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/age_text_field"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="14dp"
-            android:text="@string/verify_text" />
+            android:layout_marginTop="@dimen/top_margin"
+            android:enabled="false"
+
+            android:hint="@string/age">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email_textField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+
             android:hint="@string/email_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -136,30 +223,27 @@
             android:id="@+id/password_textField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
             android:hint="@string/pass_reg_hint"
+
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/about_textField"
-            android:layout_width="match_parent"
+        <TextView
+            style="@android:style/TextAppearance.Small"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/about_hint"/>
-        <!-- <TextView
-             android:id="@+id/rule"
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:text="@string/rule_and_policy"
-             android:textColor="?attr/colorPrimaryDark"
-             style="@android:style/TextAppearance.Medium"
-             android:layout_marginLeft="12dp"
-             android:layout_marginBottom="8dp"/>!-->
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:text="@string/verify_text" />
+
 
         <Button
             android:id="@+id/registration_button"

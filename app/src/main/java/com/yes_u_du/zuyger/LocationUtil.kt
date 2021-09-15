@@ -1,5 +1,6 @@
 package com.yes_u_du.zuyger
 
+import android.content.ContentValues.TAG
 import android.content.Context
 import android.location.Address
 import android.location.Geocoder
@@ -12,6 +13,7 @@ interface LocationUtil {
 	fun getAddress(context: Context): Address? {
 		val geocoder = Geocoder(context, context.resources.configuration.locale)
 		val addresses = geocoder.getFromLocation(MyLocationListener.latitude, MyLocationListener.longitude, 1)
+		Log.i(TAG, "getAddress: ${MyLocationListener.latitude}, ${MyLocationListener.longitude}")
 		if (addresses.isNotEmpty()) {
 			Log.i("address", addresses[0].toString())
 			return addresses[0]

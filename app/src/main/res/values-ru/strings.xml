@@ -23,7 +23,7 @@
     <string name="city">Город:</string>
     <string name="region">Регион:</string>
     <string name="sex">Пол:</string>
-    <string name="age">Возраст:</string>
+    <string name="age">Возраст</string>
     <string name="region_reg_hint">Регион</string>
     <string name="age_reg_hint">Возраст</string>
     <string name="sex_reg_hint">Пол</string>
@@ -51,6 +51,8 @@
     <string name="back_menu">Назад</string>
     <string name="seen_text">прочитано</string>
     <string name="not_seen_text">не прочитано</string>
+    <string name="male_sex">Мужской</string>
+    <string name="female_sex">Женский</string>
     <string-array name="sex_for_spinner">
         <item>  </item>
         <item>Мужской</item>
